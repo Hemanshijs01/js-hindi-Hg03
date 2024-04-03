@@ -30,4 +30,39 @@ const myFunction = function(){
     console.log("Hello world")
 }
 
-console.log(typeof id)
+console.log(typeof myFunction)
+
+
+//**************************************
+
+// Types of memories:
+
+// 1. stack & 2. Heap
+
+//1.stack => Premitive type
+//gets a copy of variable
+
+
+//2. Heap => referance type(Non-premitive)
+//gets refernace of original value
+
+let myYoutubeName = "hemaGusani" //=> string =>premitive => stack
+
+let anotherName =myYoutubeName
+anotherName = "HemanshiTilva"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let useOne = {
+    email: "use@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo= useOne
+
+userTwo.email = "hemanshi@google.com"
+
+console.log(useOne.email);
+console.log(userTwo.email);
+
