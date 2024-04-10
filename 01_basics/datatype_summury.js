@@ -66,3 +66,6 @@ userTwo.email = "hemanshi@google.com"
 console.log(useOne.email);
 console.log(userTwo.email);
 
+//Shallow copy : shares same referance point =>Stack
+
+//Deep copy : don't share same referance =>Heap
